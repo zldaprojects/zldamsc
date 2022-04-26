@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZLDAMSC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e8932a4f12.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="padding-lr">
+        <h2 class="logo">zldamsc.</h2>
+        <ul>
+            <li><a href="#home" id="nav1">Home</a></li>
+            <li><a href="#services" id="nav2">Services</a></li>
+            <li><a href="#skills" id="nav3">Developer</a></li>
+            <li><a href="#donation" id="nav4">Donation</a></li>
+        </ul>
+        <i class="uil uil-bars menu"></i>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home-left margin100">
+            <img src="img/music.svg">
+        </div>
+        <div class="home-right">
+            <span>Hey! Saya</span>
+            <h3>ZLDAMSC</h3>
+            <span class="des">Bot Telegram yang bisa memutar musik dan video langsung di obrolan suara group dan
+                channel.</span>
+            <button class="s-blue gbg-blue">
+                <a href="https://t.me/zldamscprobot">Tambahkan <b>ZLDAMSC</b></a>
+            </button>
+            <div class="social-btn">
+                <div class="social-item s-blue">
+                    <a href="https://github.com/nmiabdfhmy">
+                        <i class='bx bxl-github social-icon'></i>
+                    </a>
+                </div>
+                <div class="social-item s-blue">
+                    <a href="https://t.me/ZeldaProjects">
+                        <i class='bx bxl-telegram social-icon'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Servive -->
+    <section id="services">
+        <h1 class="title">Services</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="bgcard"></div>
+                <ion-icon name="musical-notes" class="html"></ion-icon>
+                <h3>Memutar Music</h3>
+                <p>Kamu bisa memnutar musik kesukaanmu dengan<br>ZLDAMSC.</p>
+            </div>
+            <div class="card">
+                <div class="bgcard"></div>
+                <ion-icon name="logo-youtube" class="css"></ion-icon>
+                <h3>Memutar Video</h3>
+                <p>Ayok streaming video favorit kamu dengan<br>ZLDAMSC.</p>
+            </div>
+            <div class="card">
+                <div class="bgcard"></div>
+                <ion-icon name="download" class="js"></ion-icon>
+                <h3>Download</h3>
+                <p>Kamu juga bisa mendownload langsung lagu atau video yang kamu mau dengan<br>ZLDAMSC.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile -->
+    <section id="skills">
+        <div class="container s-blue">
+            <div class="cover-photo donate" onclick="dana()">
+                <img src="https://telegra.ph/file/443dd07e0b18ac22f5776.jpg" class="profile">
+            </div>
+            <div class="profile-container">
+                <div class="name">
+                    <div class="profile-name">Nami Abdi Fahmy</div>
+                    <p>
+                        Desainer Grafis dan Programmer dari <b>Sumedang</b><br>
+                        <i class='bx bx-map'></i> <b>Jawa Barat, Indonesia</b>
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="profile-title">My Skills</div>
+                    <div class="progress">
+                        <div class="skill-entry padding-lr">
+                            <div class="skill-text">
+                                <p>Graphic Design</p>
+                                <p>90%</p>
+                            </div>
+                            <div class="pcontainer">
+                                <div class="skills design"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry padding-lr">
+                            <div class="skill-text">
+                                <p>Digital Imaging</p>
+                                <p>75%</p>
+                            </div>
+                            <div class="pcontainer">
+                                <div class="skills di"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry padding-lr">
+                            <div class="skill-text">
+                                <p>Android Development</p>
+                                <p>60%</p>
+                            </div>
+                            <div class="pcontainer">
+                                <div class="skills apk"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry padding-lr">
+                            <div class="skill-text">
+                                <p>Web Development</p>
+                                <p>45%</p>
+                            </div>
+                            <div class="pcontainer">
+                                <div class="skills web"></div>
+                            </div>
+                        </div>
+                        <div class="skill-entry padding-lr">
+                            <div class="skill-text">
+                                <p>Other Programing</p>
+                                <p>40%</p>
+                            </div>
+                            <div class="pcontainer">
+                                <div class="skills other"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-title">Follow Me</div>
+                <div class="dev-sosmed">
+                    <div class="dev-social-item dev-ig abutton">
+                        <a href="https://instagram.com/fhmyngrh_">
+                            <i class='bx bxl-instagram social-icon'></i>
+                        </a>
+                    </div>
+                    <div class="dev-social-item dev-facebook abutton">
+                        <a href="https://facebook.com/fahmynugraha.agreegorcinta">
+                            <i class='bx bxl-facebook social-icon'></i>
+                        </a>
+                    </div>
+                    <div class="dev-social-item dev-tele abutton">
+                        <a href="https://t.me/UnrealZlda">
+                            <i class='bx bxl-telegram social-icon'></i>
+                        </a>
+                    </div>
+                    <div class="dev-social-item dev-github abutton">
+                        <a href="https://github.com/nmiabdfhmy">
+                            <i class='bx bxl-github social-icon'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="profilebar padding-lr">
+                    <div class="barp"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <selection id="donation" class="donation">
+        <div class="dcontainer">
+            <div class="donasi-container padding-lr">
+                <div class="donasi-btn btn-dana dana abutton">
+                    <img src="img/dana.svg" alt="" class="donasi-icon">
+                    <div class="divider"></div>
+                    <p>DANA</p>
+                </div>
+                <div class="donasi-btn btn-gopay gopay abutton">
+                    <img src="img/gopay.svg" alt="" class="donasi-icon">
+                    <div class="divider"></div>
+                    <p>GOPAY</p>
+                </div>
+                <div class="donasi-btn btn-ovo ovo abutton">
+                    <img src="img/ovo.svg" alt="" class="donasi-icon">
+                    <div class="divider"></div>
+                    <p>OVO</p>
+                </div>
+            </div>
+            <div class="footert">
+                <i>Powered by <b>Zelda Projects</b>
+            </div>
+    </selection>
+
+    <script src="js/script.js"></script>
+    <script src="js/copyDana.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html>
