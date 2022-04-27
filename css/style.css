@@ -117,8 +117,8 @@ header ul li a:hover {
 /*===== Home =====*/
 
 #home {
-    height: 100vh;
-    min-height: 10vh;
+    height: 100%;
+    width: 100%;
     padding: 150px 0;
     width: 100%;
     display: flex;
